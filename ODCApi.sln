@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODCApi", "ODCApi\ODCApi.csproj", "{B2981B81-5551-4612-9FB4-9359976AE3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODCData", "ODCData\ODCData.csproj", "{C6C68F46-F1E7-44FC-A78E-A15FBC859B07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2981B81-5551-4612-9FB4-9359976AE3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2981B81-5551-4612-9FB4-9359976AE3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2981B81-5551-4612-9FB4-9359976AE3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2981B81-5551-4612-9FB4-9359976AE3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C68F46-F1E7-44FC-A78E-A15FBC859B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C68F46-F1E7-44FC-A78E-A15FBC859B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C68F46-F1E7-44FC-A78E-A15FBC859B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C68F46-F1E7-44FC-A78E-A15FBC859B07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A093E3E-966C-434E-8DB1-E507BBC52FB3}
+	EndGlobalSection
+EndGlobal

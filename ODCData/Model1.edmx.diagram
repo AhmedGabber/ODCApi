@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f5113063bb2f4808ba229c5392e89dde" Name="Diagram1">
+        <EntityTypeShape EntityType="ODCDataModel.Cours" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ODCDataModel.Skill" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ODCDataModel.StudentCours" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ODCDataModel.Student" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ODCDataModel.StudentSkill" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ODCDataModel.sysdiagram" Width="1.5" PointX="2.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="ODCDataModel.FK_StudentCourses_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="ODCDataModel.FK_StudentSkills_Skills" ManuallyRouted="false" />
+        <AssociationConnector Association="ODCDataModel.FK_StudentCourses_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="ODCDataModel.FK_StudentSkills_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="ODCDataModel.CourseSkills" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
